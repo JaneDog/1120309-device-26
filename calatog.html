@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -25,7 +27,7 @@
       </nav>
     </header>
     <main>
-      <h1>Моноподы для селфи</h1>
+      <h1 class="heading">Моноподы для селфи</h1>
 
       <div class="search-navigation">
         <ul>
@@ -39,7 +41,7 @@
       <h2>Фильтр</h2>
 
       <form class="filters-form" method="POST" action="http://echo.htmlacademy.ru">
-        <!--<h3>Стоимость</h3>-->
+        <h3>Стоимость</h3>
 
         <h3>Цвет</h3>
         <ul> <!-- не знаю как вообще разметить эти кнопки фильтра. Кнопки ли это? Список ли это вообще?-->
@@ -59,8 +61,15 @@
       </form>
       </aside>
 
-        <!--результаты поиска-->
         <section class="results">
+          <h2>Сортировка:</h2>
+          <ul>
+            <li><a href="">По цене</a></li>
+            <li><a href="">По типу</a></li>
+            <li><a href="">По популярности</a></li>
+            <li><a href=""><img src="img/icon-up-dir.svg"></a></li>
+            <li><a href=""><img src="img/icon-down-dir.svg"></a></li>
+          </ul>
          <article class="each-result">
             <a href="#"><img src="img/item-1.jpg.jpg" width="360" height="380" alt="Любительская селфи-палка"></a>
             <h1><a href="#">Любительская селфи-палка</a></h1>
@@ -81,9 +90,14 @@
             <h1><a href="#">Селфи-палка "Следуй за мной"</a></h1>
             <span class="cost">4 900 руб.</span>
           </article>
+          <ul class="down-nav">
+            <li><a href="">Назад</a></li>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">Вперед</a></li>
+          </ul>
         </section>
-
-        <!-- назад вперед-->
 
     </main>
 
