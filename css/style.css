@@ -321,3 +321,23 @@ a {
   font-weight: bold;
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
 }
+
+
+.table-up{
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 10;
+  color: #000000;
+  font-weight: light;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+}
+
+
+.table-down{
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 10;
+  color: #464646;
+  font-weight: light;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
